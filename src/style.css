@@ -1,1 +1,25 @@
 /* styles go here */
+/*.body {*/
+/*   padding-left: 2px;*/
+/*}*/
+
+.fieldset {
+  margin: 20px 2px;
+}
+
+.fieldset:first-child {
+  margin-top: 0;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fieldset > label:last-child {
+  margin: 0;
+}
+
+.label.inline {
+  display: inline-block;
+}
